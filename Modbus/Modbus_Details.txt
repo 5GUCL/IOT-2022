@@ -1,0 +1,52 @@
+
+
+Coil : 1- 10000 (bit)
+Inputs: 10001-20000 (bit)
+Input Registers: 30001-40000 (word)
+Holding Registers: 40001-50000 (word)
+
+
+
+Command 	Function
+1		Read Coil Registers
+2		Read Input Status
+3		Read Holding Registers
+4		Read Input Registers
+5		Force SingleCoil
+6		present Single Register
+
+
+Register Coil Address:
+---------------------
+Coil Address	PlC Address
+1		Q0.0
+2		Q0.1
+3		Q0.2
+4		Q0.3
+5		Q0.4	
+6		Q0.5
+
+Holding Registers:
+-----------------
+Name Of the Register	Holding Register No
+
+Inventory Init Value 	 : 23
+Increment Value         : 20
+Decrement Value 	 : 21
+Net Quntity Value 	 : 22
+
+
+PlC Details: 
+-----------
+PLC_IP	 : 192.168.0.1
+PLC_PORT : 502
+
+
+HMI  Details:
+-----------
+HMI_IP 	: 192.168.0.2
+
+
+ACCESSIBLE DEVICE:
+-----------------
+ACCESS_IP : 192.168.0.5
